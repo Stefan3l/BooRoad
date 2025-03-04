@@ -1,3 +1,3 @@
 export default function App() {
-  return <h2>BooRoad</h2>;
+  return <h1>BooRoad</h1>;
 }
