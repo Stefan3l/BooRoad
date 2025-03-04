@@ -1,3 +1,9 @@
+import TripPage from "./pages/TripsPage";
+
 export default function App() {
-  return <h1>BooRoad</h1>;
+  return (
+    <div className="">
+      <TripPage />
+    </div>
+  );
 }
