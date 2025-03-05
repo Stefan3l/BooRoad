@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <header className=" bg-amber-600 py-4 px-6 flex justify-between items-center gap-2 shadow-black shadow-md ">
+    <header className=" bg-[#003b95] py-4 px-6 flex justify-between items-center gap-2 shadow-black shadow-2xl ">
       <div className="w-30">
         <img className="rounded-full" src="../image/logo.jpg" alt="Logo" />
       </div>

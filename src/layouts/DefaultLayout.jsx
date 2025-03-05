@@ -5,9 +5,9 @@ import Footer from "../components/Footer";
 
 export default function DefaultLayout() {
   return (
-    <div className=" ">
+    <div className="h-screen ">
       <Header />
-      <main className="flex flex-1  ">
+      <main className="flex flex-1">
         <NavBar />
         <Outlet />
       </main>
