@@ -34,7 +34,7 @@ export default function TripPage() {
               </div>
             ))
           ) : (
-            <div>
+            <div className="h-screen">
               <h3 className="text-2xl font-medium text-red-600">
                 Nessun utente trovato!
               </h3>

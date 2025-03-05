@@ -2,8 +2,8 @@ import { NavLink } from "react-router-dom";
 
 export default function NavBar() {
   return (
-    <nav className="bg-gray-800 text-white p-4 hidden md:block w-[10%] ">
-      <ul>
+    <nav className="bg-gray-800 text-white p-4 hidden md:block w-[14%]">
+      <ul className="truncate">
         <li className="p-2 hover:bg-gray-700 cursor-pointer">
           <NavLink
             to="/"
@@ -18,14 +18,14 @@ export default function NavBar() {
         </li>
         <li className="p-2 hover:bg-gray-700 cursor-pointer">
           <NavLink
-            to="/about"
+            to="/amministrazione"
             className={({ isActive }) =>
               isActive
                 ? "text-white font-bold border-b-2 border-white"
                 : "text-gray-400 hover:text-white"
             }
           >
-            Chi siamo
+            Amministrazione
           </NavLink>
         </li>
         <li className="p-2 hover:bg-gray-700 cursor-pointer">
