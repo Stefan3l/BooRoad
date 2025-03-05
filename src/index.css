@@ -1,1 +1,22 @@
 @import "tailwindcss";
+
+/* ---------------
+    TITLE 
+---------------- */
+
+.title-section {
+  font-weight: bold;
+  animation: colorChange 4s infinite alternate;
+}
+
+@keyframes colorChange {
+  0% {
+    color: rgba(0, 128, 0, 1);
+  }
+  50% {
+    color: rgb(0, 225, 255);
+  }
+  100% {
+    color: rgba(255, 165, 0, 1);
+  }
+}
