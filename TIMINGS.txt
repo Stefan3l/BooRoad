@@ -1,0 +1,3 @@
+login -- 15
+viaggio -- 70
+rubrica -- 35
