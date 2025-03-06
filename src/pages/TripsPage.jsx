@@ -17,7 +17,7 @@ export default function TripsPage() {
     .slice(0, 5); // Seleziona i primi 5
 
   return (
-    <div className=" container mx-auto max-w-[1200px] text-center my-10 space-y-8">
+    <div className=" container mx-auto max-w-[1200px] text-center my-10 space-y-8 px-2.5">
       <h1 className="title-section text-4xl">Viaggio a {trip.nome}</h1>
       <div className="bg-white flex flex-col md:flex-row shadow-black    transform transition duration-[300ms] hover:scale-102  shadow-xl rounded-2xl p-2.5">
         <div className="w-full md:w-4/10">
